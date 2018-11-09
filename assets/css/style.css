@@ -986,7 +986,7 @@ Resume Timeline
     font-size: 18px;
     font-weight: 400;
     margin-top: -6px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 
@@ -997,21 +997,21 @@ Resume Timeline
     position: relative;
 }
 .progress {
-    height: 10px;
+    height: 18px;
     margin-bottom: 40px;
     background-color: #3a4149;
     border-radius: 3px;
     box-shadow: none;
-    width: 75%;
+    width: 56%;
 }
 
 .progress-bar {
     background-color: #68c3a3;
 }
 .progress-bar span{
-    position: absolute;
-    top: -20px;
-    right: 15px;
+   position: absolute;
+   top: 0px;
+   right: 62px;
 }
 
 .progress .progress-bar.six-sec-ease-in-out {
